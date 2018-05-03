@@ -5,6 +5,7 @@ pipeline {
       agent any
       steps {
         sh 'echo \'hello world\''
+        echo 'building job'
       }
     }
   }
